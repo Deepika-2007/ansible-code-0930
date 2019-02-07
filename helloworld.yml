@@ -9,7 +9,7 @@
    tasks:
      - name: Creating a file called helloworld.html
        file:
-         path: /opt/helloworld.html
+         path: /tmp/helloworld.html
          state: touch
          owner: root
          group: root
